@@ -1,4 +1,2 @@
 User-agent: *
-Disallow:
-
-Sitemap: https://felixsaretzky.github.io/sitemap.xml
+Disallow: /
