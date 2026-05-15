@@ -6,8 +6,7 @@ title: Felix Saretzky # the website title (if blank, full name will be used inst
 first_name: Felix
 middle_name:
 last_name: Saretzky
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal academic website for research at the intersection of manufacturing, production engineering, and causal AI.
 footer_text: >
