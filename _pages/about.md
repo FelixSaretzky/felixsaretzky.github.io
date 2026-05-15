@@ -7,7 +7,7 @@ subtitle: Personal academic website
 profile: false
 
 selected_papers: false
-social: false
+social: true
 
 announcements:
   enabled: false
@@ -21,3 +21,5 @@ latest_posts:
 ---
 
 This personal academic website is currently under construction.
+
+You can reach me via LinkedIn, GitHub, or email below.
