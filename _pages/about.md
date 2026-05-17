@@ -1,8 +1,8 @@
 ---
 layout: about
-title: under construction
+title: about
 permalink: /
-subtitle: Personal academic website
+subtitle:
 
 profile: false
 
@@ -20,6 +20,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-This personal academic website is currently under construction.
+I am a PhD student at the University of Luxembourg, working with [Thomas Engel](https://www.uni.lu/fstm-en/people/thomas-engel/) and [Fazel Ansari](https://www.tuwien.at/en/mwbw/im/pim/team/ansari-fazel). My research lies at the intersection of manufacturing, production engineering, and causal AI.
 
-You can reach me via LinkedIn, GitHub, or email below.
+Please feel free to contact me via email. You can also find me on GitHub and LinkedIn.
