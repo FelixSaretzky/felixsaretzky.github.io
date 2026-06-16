@@ -47,9 +47,9 @@ jobs:
         shell: bash
         run: |
           set +e
-          echo "🚀 Running citation update script (single attempt)..."
+          echo "🚀 Running citation update script..."
           start_time=$(date)
-          timeout 90 python bin/update_scholar_citations.py
+          timeout 180 python bin/update_scholar_citations.py
           status=$?
           end_time=$(date)
           if [ $status -eq 0 ]; then
