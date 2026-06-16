@@ -2,3 +2,5 @@ nbconvert
 pyyaml
 rendercv[full]
 scholarly
+requests
+urllib3
