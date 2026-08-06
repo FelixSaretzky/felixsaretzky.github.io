@@ -20,7 +20,9 @@ jobs:
       - name: Setup Node.js ⚙️
         uses: actions/setup-node@v4
       - name: Install Prettier 💾
-        run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
+        # Versions are pinned on purpose: an unpinned install picks up new
+        # formatter releases and turns untouched files red on unrelated pushes.
+        run: npm install --save-dev --save-exact prettier@3.9.6 @shopify/prettier-plugin-liquid@1.11.0
       - name: Prettier Check 🔎
         id: prettier
         run: npx prettier . --check
