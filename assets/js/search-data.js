@@ -30,7 +30,17 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "news-ws-2026-27-i-am-building-the-browser-based-exercise-track-for-fundamentals-of-network-theory-at-the-university-of-luxembourg-try-the-notebooks",
+          title: 'WS 2026/27: I am building the browser-based exercise track for Fundamentals of Network...',
+          description: "",
+          section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
