@@ -40,6 +40,9 @@ ninja.data = [{
         },{id: "news-ws-2026-27-i-am-building-the-browser-based-exercise-track-for-fundamentals-of-network-theory-at-the-university-of-luxembourg-try-the-notebooks",
           title: 'WS 2026/27: I am building the browser-based exercise track for Fundamentals of Network...',
           description: "",
+          section: "News",},{id: "news-i-successfully-defended-my-doctoral-thesis-at-the-university-of-luxembourg",
+          title: 'I successfully defended my doctoral thesis at the University of Luxembourg.',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
