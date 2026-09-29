@@ -46,6 +46,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-give-a-talk-at-the-ai-austria-meetup",
           title: 'I will give a talk at the AI Austria Meetup.',
           description: "",
+          section: "News",},{id: "news-i-will-attend-the-ai-talent-matchmaking-event-at-the-luxembourg-chamber-of-commerce-on-9-october-2026",
+          title: 'I will attend the AI Talent Matchmaking Event at the Luxembourg Chamber of...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
