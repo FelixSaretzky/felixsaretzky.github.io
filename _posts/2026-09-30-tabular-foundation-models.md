@@ -59,7 +59,7 @@ Slides and the hands-on notebook follow here after the talk.
 
 ## My work
 
-- F. Saretzky et al.: [Integrating a Causal Foundation Model into a Prescriptive Maintenance Framework for Optimising Production-Line OEE](https://arxiv.org/abs/2512.00969){:target="_blank"}, arXiv 2026.
+- F. Saretzky et al.: [Integrating a Causal Foundation Model into a Prescriptive Maintenance Framework for Optimising Production-Line OEE](https://doi.org/10.1016/j.procir.2026.03.207){:target="_blank"}, Procedia CIRP 2026.
 - M. Orošnjak, F. Saretzky, S. Kędziora: [Prescriptive Maintenance: A Systematic Literature Review and Exploratory Meta-Synthesis](https://doi.org/10.3390/app15158507){:target="_blank"}, Applied Sciences 2025.
 - F. Saretzky, T. Engel, F. Ansari: [Network-based Root Cause Identification to Improve OEE in High-Precision Manufacturing](https://doi.org/10.1016/j.ifacol.2025.09.406){:target="_blank"}, IFAC-PapersOnLine 2025.
 - [ProductionLineSimulator](https://github.com/FelixSaretzky/ProductionLineSimulator){:target="_blank"}: synthetic production lines with causal ground truth, as used to pre-train PriMa-Causa.
