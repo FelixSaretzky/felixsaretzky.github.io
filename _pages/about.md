@@ -4,7 +4,10 @@ title: about
 permalink: /
 subtitle:
 
-profile: false
+profile:
+  align: right
+  image: prof_pic_pixel.png
+  image_circular: false # crops the image to make it circular
 
 selected_papers: false
 social: true
