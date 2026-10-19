@@ -2,17 +2,33 @@
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
       {% if project.img %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "250px"
-          alt="project thumbnail"
-          class="card-img-top"
-        %}
+        {% assign img_ext = project.img | split: '.' | last %}
+        {% if project.img_fit == 'contain' %}
+          {% assign img_class = 'card-img-top img-contain' %}
+        {% else %}
+          {% assign img_class = 'card-img-top' %}
+        {% endif %}
+        {% if img_ext == 'gif' %}
+          <!-- GIFs bypass the responsive WebP conversion, which would freeze the animation -->
+          <img src="{{ project.img | relative_url }}" class="{{ img_class }}" alt="project thumbnail" loading="eager">
+        {% else %}
+          {%
+            include figure.liquid
+            loading="eager"
+            path=project.img
+            sizes = "250px"
+            alt="project thumbnail"
+            class=img_class
+          %}
+        {% endif %}
       {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
+        {% if project.period %}
+          <p class="card-text mb-1">
+            <small class="text-muted">{{ project.period }}</small>
+          </p>
+        {% endif %}
         <p class="card-text">{{ project.description }}</p>
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}

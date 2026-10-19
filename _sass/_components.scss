@@ -139,6 +139,33 @@ ul.task-list input[type="checkbox"] {
     img {
       width: 100%;
     }
+
+    // Same image area on every card: photos fill it, diagrams (img_fit: contain) fit inside
+    img.card-img-top {
+      aspect-ratio: 16 / 10;
+      height: auto;
+      object-fit: cover;
+    }
+
+    img.img-contain {
+      object-fit: contain;
+      background-color: #ffffff;
+    }
+
+    figure {
+      margin-bottom: 0;
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+    }
+  }
+
+  // Same tile height in the three-column grid: room for the longest title and description
+  @media (min-width: 992px) {
+    .card-body {
+      min-height: 14.5rem;
+    }
   }
 
   .col {
