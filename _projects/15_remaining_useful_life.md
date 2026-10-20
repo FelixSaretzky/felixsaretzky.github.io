@@ -26,4 +26,6 @@ category: machine learning
 
 **Paper.** Saretzky, F., Pauly, A., Engel, T., & Rehof, J. RULix: A Foundation Model for Zero-Shot Remaining Useful Life Prediction. Preprint, currently under review at the 60th CIRP Conference on Manufacturing Systems (CIRP CMS 2027).
 
+**Code.** [github.com/FelixSaretzky/RULix](https://github.com/FelixSaretzky/RULix){:target="\_blank"}
+
 **Tools.** PyTorch, xLSTM, stochastic differential equations, structural causal models, synthetic data generation.

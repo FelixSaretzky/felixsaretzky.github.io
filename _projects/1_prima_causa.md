@@ -28,6 +28,6 @@ category: machine learning
 
 **Paper.** Saretzky, F., Andersen, L., Engel, T., & Ansari, F. (2026). Integrating a Causal Foundation Model into a Prescriptive Maintenance Framework for Optimising Production-Line OEE. _Procedia CIRP_, 146, 78–83. [doi.org/10.1016/j.procir.2026.03.207](https://doi.org/10.1016/j.procir.2026.03.207){:target="\_blank"}
 
-**Code.** Will be released soon.
+**Code.** [github.com/FelixSaretzky/PriMaCausa](https://github.com/FelixSaretzky/PriMaCausa){:target="\_blank"}. The source code, training configuration and pre-trained weights will be published once the dissertation is out.
 
 **Tools.** PyTorch, synthetic data generation, TabPFN, TabICL, DoWhy, EconML.
