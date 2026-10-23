@@ -28,7 +28,7 @@ category: machine learning
 
 **Paper.** Saretzky, F., Andersen, L., Engel, T., & Ansari, F. (2026). Integrating a Causal Foundation Model into a Prescriptive Maintenance Framework for Optimising Production-Line OEE. _Procedia CIRP_, 146, 78–83. [doi.org/10.1016/j.procir.2026.03.207](https://doi.org/10.1016/j.procir.2026.03.207){:target="\_blank"}
 
-**Thesis.** The full dissertation is available on arXiv ([arxiv.org/abs/2610.31147](https://arxiv.org/abs/2610.31147){:target="\_blank"}) and in ORBilu, the University of Luxembourg repository ([orbilu.uni.lu/handle/10993/69383](https://orbilu.uni.lu/handle/10993/69383){:target="\_blank"}).
+**Thesis.** The full dissertation is available in ORBilu, the University of Luxembourg repository ([orbilu.uni.lu/handle/10993/69383](https://orbilu.uni.lu/handle/10993/69383){:target="\_blank"}), and on arXiv ([arxiv.org/abs/2610.31147](https://arxiv.org/abs/2610.31147){:target="\_blank"}).
 
 **Code.** [github.com/FelixSaretzky/PriMaCausa](https://github.com/FelixSaretzky/PriMaCausa){:target="\_blank"}. The source code, training configuration and pre-trained weights will be published once the dissertation is out.
 
