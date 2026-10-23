@@ -23,7 +23,6 @@ category: machine learning
 
 **Approach.** RULix is a prognostic foundation model that is pre-trained only on synthetic run-to-failure data. The prior lets a latent health index degrade as a stochastic differential equation and generates the sensor signals through structural causal graphs unrolled over time. An xLSTM encoder embeds sliding sensor windows and predicts the health state, the degradation dynamics and the remaining useful life. The model is evaluated zero-shot, without any training on the target data, on the C-MAPSS and N-CMAPSS turbofan benchmarks.
 
-
 **Paper.** Saretzky, F., Pauly, A., Engel, T., & Rehof, J. RULix: A Foundation Model for Zero-Shot Remaining Useful Life Prediction. Preprint, currently under review at the 60th CIRP Conference on Manufacturing Systems (CIRP CMS 2027).
 
 **Code.** [github.com/FelixSaretzky/RULix](https://github.com/FelixSaretzky/RULix){:target="\_blank"}
