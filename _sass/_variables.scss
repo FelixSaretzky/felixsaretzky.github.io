@@ -32,6 +32,26 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Catppuccin palette (https://catppuccin.com/palette): Latte for light mode, Mocha for dark mode
+$latte-base: #eff1f5;
+$latte-mantle: #e6e9ef;
+$latte-crust: #dce0e8;
+$latte-surface0: #ccd0da;
+$latte-text: #4c4f69;
+$latte-subtext1: #5c5f77;
+$latte-subtext0: #6c6f85;
+$latte-blue: #1e66f5;
+$latte-red: #d20f39;
+
+$mocha-base: #1e1e2e;
+$mocha-mantle: #181825;
+$mocha-crust: #11111b;
+$mocha-surface1: #45475a;
+$mocha-text: #cdd6f4;
+$mocha-subtext0: #a6adc8;
+$mocha-blue: #89b4fa;
+$mocha-red: #f38ba8;
+
 // Theme colors
 
 $code-bg-color-light: rgba($purple-color, 0.05);
