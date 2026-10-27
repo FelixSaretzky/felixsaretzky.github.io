@@ -75,6 +75,11 @@ ninja.data = [{
           description: "An offline assistant that answers operators&#39; maintenance questions from machine documentation, with small models that run on site.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/17_maintenance_language_models/";
+            },},{id: "projects-reading-list-research-questions-and-academic-writing",
+          title: 'Reading list: Research questions and academic writing',
+          description: "Papers and guides on finding a good research question and on writing it up.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/18_reading_list_research/";
             },},{id: "projects-prima-causa",
           title: 'PriMa-Causa',
           description: "A causal foundation model that ranks maintenance actions by their effect on production-line performance.",
