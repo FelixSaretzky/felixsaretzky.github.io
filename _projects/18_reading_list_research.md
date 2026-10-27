@@ -10,6 +10,10 @@ category: talks and notes
 
 ## Research questions and research gaps
 
+- **How to do good research, get it published in SIGKDD and get it cited!**  
+  Keogh, E. (2009). Tutorial at ACM SIGKDD 2009.  
+  [cs.ucr.edu/~eamonn/Keogh_SIGKDD09_tutorial.pdf](https://www.cs.ucr.edu/~eamonn/Keogh_SIGKDD09_tutorial.pdf)
+
 - **Ways of constructing research questions: gap-spotting or problematization?**  
   Sandberg, J. & Alvesson, M. (2011). _Organization_, 18(1), 23–44.  
   [doi.org/10.1177/1350508410372151](https://doi.org/10.1177/1350508410372151)
@@ -17,10 +21,6 @@ category: talks and notes
 - **How to develop good research questions**  
   Peters, M. A. K. (2025). _Nature Human Behaviour_ (Comment).  
   [doi.org/10.1038/s41562-025-02292-5](https://doi.org/10.1038/s41562-025-02292-5)
-
-- **How to do good research, get it published in SIGKDD and get it cited!**  
-  Keogh, E. (2009). Tutorial at ACM SIGKDD 2009.  
-  [cs.ucr.edu/~eamonn/Keogh_SIGKDD09_tutorial.pdf](https://www.cs.ucr.edu/~eamonn/Keogh_SIGKDD09_tutorial.pdf)
 
 - **Forschungsmethodik in den Ingenieurwissenschaften** (in German)  
   Biedermann, W., Kirner, K., Kissel, M., Langer, S., Münzberg, C. & Wickel, M. (2013). Lecture notes, Chair of Product Development, TU Munich.  
