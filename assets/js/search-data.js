@@ -112,7 +112,7 @@ ninja.data = [{
               window.location.href = "/projects/6_cfd_cases/";
             },},{id: "projects-fundamentals-of-network-theory",
           title: 'Fundamentals of Network Theory',
-          description: "Browser-based, autograded Python exercises for a university course.",
+          description: "Browser-based Python exercises for a university course.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_network_theory_teaching/";
             },},{id: "projects-talk-tabular-foundation-models",
