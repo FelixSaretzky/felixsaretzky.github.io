@@ -120,9 +120,9 @@ ninja.data = [{
           description: "Slides, notebook and reading list from my talk at AI Austria, September 2026.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_talk_tabular_foundation_models/";
-            },},{id: "projects-note-your-reference-manager-as-an-agent-tool",
-          title: 'Note: Your reference manager as an agent tool',
-          description: "How a searchable paper library helps an AI agent move from what a paper claims to what its code does.",
+            },},{id: "projects-guide-literature-research-with-claude-and-zotero",
+          title: 'Guide: Literature research with Claude and Zotero',
+          description: "A visual setup guide. Claude Code or Claude Science, literature skills, and a Zotero library indexed for semantic search.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_note_reference_manager/";
             },},{
