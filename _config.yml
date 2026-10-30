@@ -543,6 +543,12 @@ third_party_libraries:
     url:
       js: "https://cdn.jsdelivr.net/npm/mermaid@{{version}}/dist/mermaid.min.js"
     version: "10.7.0"
+  pele:
+    integrity:
+      js: "sha256-eH7Wa7S9VsFeIkEJ/1uJ7Tlev6z3H64sDMrR+G1uJO8="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/pele@{{version}}/dist/pele.global.js"
+    version: "1.12.0"
   photoswipe:
     integrity:
       js: "sha256-VCBpdxvrNNxGHNuTdNqK9kPFkev2XY7DYzHdmgaB69Q="

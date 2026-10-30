@@ -603,3 +603,16 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+
+// Pele diagrams, colored by the site theme
+.pele-diagram {
+  --pele-bg: var(--global-bg-color);
+  --pele-fg: var(--global-text-color);
+  --pele-muted: var(--global-text-color-light);
+  --pele-line: var(--global-text-color-light);
+  --pele-surface: var(--global-bg-color);
+  --pele-surface-alt: var(--global-code-bg-color);
+  --pele-border: var(--global-theme-color);
+  --pele-accent: var(--global-theme-color);
+  margin: 1.5rem 0 2rem;
+}
