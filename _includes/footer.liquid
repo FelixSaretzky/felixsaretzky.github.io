@@ -6,6 +6,9 @@
   {% if site.impressum_path %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
   {% endif %}
+  {% if site.enable_goatcounter_analytics %}
+    <span id="goatcounter-visits" hidden>Visits: <span></span>.</span>
+  {% endif %}
   {% if site.last_updated %}
     Last updated: {{ 'now' | date: '%B %d, %Y' }}.
   {% endif %}

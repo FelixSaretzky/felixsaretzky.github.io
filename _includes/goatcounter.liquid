@@ -1,0 +1,20 @@
+{% if site.enable_goatcounter_analytics and site.goatcounter_analytics %}
+  <!-- GoatCounter: cookie-free visitor statistics -->
+  <script
+    data-goatcounter="https://{{ site.goatcounter_analytics }}.goatcounter.com/count"
+    async
+    src="https://gc.zgo.at/count.js"
+  ></script>
+  <script>
+    // Show the total visit count in the footer. Stays hidden if the public counter is turned off in GoatCounter.
+    fetch('https://{{ site.goatcounter_analytics }}.goatcounter.com/counter/TOTAL.json')
+      .then((response) => (response.ok ? response.json() : Promise.reject()))
+      .then((data) => {
+        const element = document.getElementById('goatcounter-visits');
+        if (!element || !data.count) return;
+        element.querySelector('span').textContent = data.count;
+        element.hidden = false;
+      })
+      .catch(() => {});
+  </script>
+{% endif %}
