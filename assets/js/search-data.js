@@ -80,8 +80,8 @@ ninja.data = [{
           description: "Papers and guides on finding a good research question and on writing it up.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/18_reading_list_research/";
-            },},{id: "projects-prima-causa",
-          title: 'PriMa-Causa',
+            },},{id: "projects-prima-causa-phd-thesis",
+          title: 'PriMa-Causa (PhD thesis)',
           description: "A causal foundation model that ranks maintenance actions by their effect on production-line performance.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_prima_causa/";
