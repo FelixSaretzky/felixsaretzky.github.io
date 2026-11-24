@@ -23,7 +23,7 @@
   P -- technician approves --&gt; A[Act&lt;br/&gt;work order, robot]
   A -- outcome --&gt; D
 </code></pre> <h2 id="the-agent-is-the-glue-not-the-brain">The agent is the glue, not the brain</h2> <p>A language model should not estimate a remaining useful life or guess a root cause from its training data. It should call tools that compute these, read the results and explain them to the technician. Each tool below is a piece of my own work:</p> <pre><code class="language-mermaid">flowchart LR
-  T([Technician]) &lt;--&gt; AG
+  T([Technician]) &lt;--&gt; AG{{Agent}}
   AG --&gt; F[Forecast&lt;br/&gt;RULix]
   AG --&gt; C[Root cause&lt;br/&gt;PriMa-Causa]
   AG --&gt; K[Knowledge&lt;br/&gt;manuals, logs]
