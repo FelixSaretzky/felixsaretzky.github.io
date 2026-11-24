@@ -11,6 +11,7 @@ profile:
 
 selected_papers: false
 social: true
+booking_url: "https://calendar.proton.me/u/5/bookings#m5kEqLk779MPmzMzm69WsuHY4axgO4pgDLxX1wwIYdA=" # "Book a meeting" button next to the contact icons
 
 announcements:
   enabled: true
@@ -25,5 +26,3 @@ latest_posts:
 
 I recently completed my [PhD](https://hdl.handle.net/10993/69383) at the University of Luxembourg, supervised by [Thomas Engel](https://www.uni.lu/fstm-en/people/thomas-engel/) and [Fazel Ansari](https://www.tuwien.at/en/mwbw/im/pim/team/ansari-fazel).  
 My research focuses on decision making in uncertain environments and causal artificial intelligence.
-
-Please feel free to contact me via [e-mail](mailto:felix.saretzky@pm.me) or book an [online meeting](https://calendar.proton.me/u/5/bookings#m5kEqLk779MPmzMzm69WsuHY4axgO4pgDLxX1wwIYdA=). You can also find me on [LinkedIn](https://www.linkedin.com/in/felix-saretzky) and [GitHub](https://github.com/FelixSaretzky).

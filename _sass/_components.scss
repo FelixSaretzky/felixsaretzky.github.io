@@ -274,7 +274,31 @@ ul.task-list input[type="checkbox"] {
 // Social (bottom)
 
 .social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
   margin: 0.25rem 0 0.5rem;
+
+  // E-mail and booking buttons before the icons; the e-mail icon would repeat the button
+  .contact-icons a[href^="mailto:"] {
+    display: none;
+  }
+
+  .contact-button {
+    padding: 0.3rem 0.9rem;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 999px;
+    color: var(--global-theme-color);
+    font-size: 0.95rem;
+    white-space: nowrap;
+
+    &:hover {
+      background-color: var(--global-theme-color);
+      color: var(--global-bg-color);
+      text-decoration: none;
+    }
+  }
 
   // Icon row under the bio, left-aligned with the text
   .contact-icons {
