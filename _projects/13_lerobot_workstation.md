@@ -3,7 +3,7 @@ layout: page
 title: LeRobot workstation
 description: Open-source robot arms for pick-and-place and inspection, controlled by AI agents through MCP and MQTT.
 period: 2026
-importance: 1
+importance: 2
 img: assets/img/projects/lerobot_arms.jpg
 category: machine learning
 ---

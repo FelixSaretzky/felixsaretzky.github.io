@@ -3,7 +3,7 @@ layout: page
 title: PriMa-Causa (PhD thesis)
 description: A causal foundation model that ranks maintenance actions by their effect on production-line performance.
 period: 02/2023 – 09/2026
-importance: 2
+importance: 1
 img: assets/img/projects/prima_causa.png
 img_fit: contain
 category: machine learning

@@ -186,13 +186,47 @@ ul.task-list input[type="checkbox"] {
     margin-bottom: 10px;
   }
 
+  // Jump links under the page title
+  .category-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.25rem 0 0.5rem;
+
+    a {
+      padding: 0.25rem 0.85rem;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 999px;
+      color: var(--global-text-color);
+      font-size: 0.9rem;
+
+      &:hover {
+        color: var(--global-theme-color);
+        border-color: var(--global-theme-color);
+      }
+    }
+  }
+
+  // Land below the fixed navbar when a jump link is used
+  .category-anchor {
+    display: block;
+    scroll-margin-top: 4.5rem;
+  }
+
   h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global-text-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-bottom: 2px solid var(--global-divider-color);
     padding-top: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: right;
+    padding-bottom: 0.35rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+    text-align: left;
+  }
+
+  .category-anchor:hover h2.category {
+    color: var(--global-theme-color);
   }
 }
 
