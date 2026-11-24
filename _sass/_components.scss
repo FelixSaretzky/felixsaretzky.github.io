@@ -280,11 +280,7 @@ ul.task-list input[type="checkbox"] {
   gap: 0.5rem 0.75rem;
   margin: 0.25rem 0 0.5rem;
 
-  // E-mail and booking buttons before the icons; the e-mail icon would repeat the button
-  .contact-icons a[href^="mailto:"] {
-    display: none;
-  }
-
+  // E-mail and booking buttons before the icons
   .contact-button {
     padding: 0.3rem 0.9rem;
     border: 1px solid var(--global-theme-color);

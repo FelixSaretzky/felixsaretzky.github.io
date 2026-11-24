@@ -11,6 +11,7 @@ profile:
 
 selected_papers: false
 social: true
+contact_email: felix.saretzky@pm.me # "Write an e-mail" button next to the contact icons
 booking_url: "https://calendar.proton.me/u/5/bookings#m5kEqLk779MPmzMzm69WsuHY4axgO4pgDLxX1wwIYdA=" # "Book a meeting" button next to the contact icons
 
 announcements:

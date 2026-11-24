@@ -43,8 +43,8 @@ layout: default
     <!-- Social, right under the bio -->
     {% if page.social %}
       <div class="social">
-        {% if site.data.socials.email %}
-          <a class="contact-button" href="mailto:{{ site.data.socials.email }}"> <i class="fa-solid fa-envelope"></i> Write an e-mail </a>
+        {% if page.contact_email %}
+          <a class="contact-button" href="mailto:{{ page.contact_email }}"> <i class="fa-solid fa-envelope"></i> Write an e-mail </a>
         {% endif %}
         {% if page.booking_url %}
           <a class="contact-button" href="{{ page.booking_url }}" target="_blank" rel="noopener">
