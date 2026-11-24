@@ -3,7 +3,7 @@ layout: page
 title: "Reading list: Research questions and academic writing"
 description: Papers and guides on finding a good research question and on writing it up.
 period: 10/2026
-importance: 3
+importance: 4
 img: assets/img/projects/reading_list.png
 category: talks and notes
 ---
