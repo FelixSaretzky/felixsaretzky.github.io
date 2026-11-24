@@ -6,7 +6,7 @@ period: 2024
 importance: 6
 img: assets/img/projects/maintenance_chatbot.png
 img_fit: contain
-category: machine learning
+category: AI for maintenance
 ---
 
 <div class="row justify-content-sm-center">

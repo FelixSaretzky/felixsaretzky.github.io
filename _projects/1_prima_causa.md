@@ -6,7 +6,7 @@ period: 02/2023 – 09/2026
 importance: 1
 img: assets/img/projects/prima_causa.png
 img_fit: contain
-category: machine learning
+category: AI for maintenance
 ---
 
 <div class="row justify-content-sm-center">

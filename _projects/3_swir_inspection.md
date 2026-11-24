@@ -5,7 +5,7 @@ description: Short-wave infrared imaging and deep learning for quality checks in
 period: 01/2022 – 07/2022
 importance: 9
 img: assets/img/projects/swir_inspection.png
-category: machine learning
+category: computer vision
 ---
 
 <div class="row justify-content-sm-center">

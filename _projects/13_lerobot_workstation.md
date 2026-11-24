@@ -5,7 +5,7 @@ description: Open-source robot arms for pick-and-place and inspection, controlle
 period: 2026
 importance: 2
 img: assets/img/projects/lerobot_arms.jpg
-category: machine learning
+category: AI for maintenance
 ---
 
 <div class="row justify-content-sm-center">

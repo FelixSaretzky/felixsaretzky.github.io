@@ -6,7 +6,7 @@ period: 2023 – 2026
 importance: 4
 img: assets/img/projects/production_line_simulator.png
 img_fit: contain
-category: machine learning
+category: AI for maintenance
 ---
 
 <div class="row justify-content-sm-center">

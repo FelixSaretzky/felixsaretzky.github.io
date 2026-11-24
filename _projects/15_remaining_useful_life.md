@@ -5,7 +5,7 @@ description: A foundation model for zero-shot remaining useful life prediction, 
 period: 2026
 importance: 3
 img: assets/img/projects/rulix_card.gif
-category: machine learning
+category: AI for maintenance
 ---
 
 <div class="row justify-content-sm-center">

@@ -5,18 +5,24 @@ permalink: /projects/
 description: Selected research, engineering and teaching work, plus talks and notes.
 nav: true
 nav_order: 1
-display_categories: [machine learning, teaching and supervision, talks and notes, simulation]
+display_categories: [AI for maintenance, computer vision, teaching and supervision, talks and notes, simulation]
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
-  <!-- Jump links to the sections -->
-  <nav class="category-nav" aria-label="Sections">
-    {% for category in page.display_categories %}
-    <a href="#{{ category | slugify }}">{{ category }}</a>
-    {% endfor %}
+  <!-- Table of contents -->
+  <nav class="projects-toc" aria-label="Contents">
+    <p class="projects-toc-title">Contents</p>
+    <ol>
+      {% for category in page.display_categories %}
+      {% assign category_size = site.projects | where: "category", category | size %}
+      <li>
+        <a href="#{{ category | slugify }}"><span>{{ category }}</span><span class="toc-leader"></span><span class="toc-count">{{ category_size }}</span></a>
+      </li>
+      {% endfor %}
+    </ol>
   </nav>
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}

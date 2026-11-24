@@ -6,7 +6,7 @@ period: 2025
 importance: 5
 img: assets/img/projects/root_cause_cpg.png
 img_fit: contain
-category: machine learning
+category: AI for maintenance
 ---
 
 <div class="row justify-content-sm-center">
