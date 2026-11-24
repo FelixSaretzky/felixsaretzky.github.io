@@ -13,3 +13,8 @@ assets/rendercv/rendercv_output/*.typ
 Gemfile.lock
 node_modules/
 vendor
+
+# Agentic maintenance post: work in progress, kept local until it is finished
+_posts/2026-11-24-agentic-maintenance.md
+_projects/21_blog_agentic_maintenance.md
+assets/img/projects/agentic_maintenance.png
