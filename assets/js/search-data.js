@@ -97,7 +97,7 @@ ninja.data = [{
               window.location.href = "/projects/20_supervision_crab_traceability/";
             },},{id: "projects-blog-agentic-maintenance",
           title: 'Blog: Agentic maintenance',
-          description: "From predicting failures to acting on them. What maintenance agents need before a technician can trust them.",
+          description: "From predicting failures to acting on them. What maintenance agents need before a technician can trust them. Work in progress.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/21_blog_agentic_maintenance/";
             },},{id: "projects-network-based-root-cause-analysis",
