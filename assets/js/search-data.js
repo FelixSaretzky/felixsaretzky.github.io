@@ -80,11 +80,21 @@ ninja.data = [{
           description: "Papers and guides on finding a good research question and on writing it up.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/18_reading_list_research/";
+            },},{id: "projects-supervision-master-39-s-thesis-with-imatec",
+          title: 'Supervision: Master&amp;#39;s thesis with Imatec',
+          description: "A master&#39;s thesis with Imatec, a machine builder in Luxembourg. Page under construction.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/19_supervision_imatec/";
             },},{id: "projects-prima-causa-phd-thesis",
           title: 'PriMa-Causa (PhD thesis)',
           description: "A causal foundation model that ranks maintenance actions by their effect on production-line performance.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_prima_causa/";
+            },},{id: "projects-supervision-master-39-s-thesis-with-crab-traceability-systems",
+          title: 'Supervision: Master&amp;#39;s thesis with CRAB Traceability Systems',
+          description: "A master&#39;s thesis with CRAB, who build mobile AI camera systems for recycling. Page under construction.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/20_supervision_crab_traceability/";
             },},{id: "projects-network-based-root-cause-analysis",
           title: 'Network-based root cause analysis',
           description: "Finding the causes of efficiency losses on a high-precision production line with network science.",
