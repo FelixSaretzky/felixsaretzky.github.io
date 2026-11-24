@@ -9,7 +9,7 @@ last_name: Saretzky
 contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal academic website for research on decision making in uncertain environments and causal artificial intelligence.
-footer_text: # extra text after the copyright line in the footer, empty keeps only "© year name."
+footer_text: # optional text in the footer (left empty: the footer only shows the visit count)
 keywords: manufacturing, production engineering, causal AI, causal inference, academic website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
