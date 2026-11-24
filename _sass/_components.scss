@@ -274,29 +274,29 @@ ul.task-list input[type="checkbox"] {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  margin: 0.25rem 0 0.5rem;
 
-  // Quiet icon row instead of large tiles
+  // Icon row under the bio, left-aligned with the text
   .contact-icons {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
 
     a {
-      margin: 0 0.4rem;
+      margin-right: 0.9rem;
 
       img {
-        width: 1.3rem;
-        height: 1.3rem;
+        width: 1.65rem;
+        height: 1.65rem;
         margin-bottom: 0.5rem;
       }
 
       svg {
-        width: 1.4rem;
-        height: 1.5rem;
+        width: 1.75rem;
+        height: 1.9rem;
         margin-bottom: 0.25rem;
 
         image {
-          width: 1.4rem;
-          height: 1.4rem;
+          width: 1.75rem;
+          height: 1.75rem;
         }
       }
 
