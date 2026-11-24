@@ -9,6 +9,8 @@ related_posts: false
 pele: true
 ---
 
+_Status: work in progress. This post is not finished yet and will still change._
+
 **TL;DR.** Predictive maintenance answers _when_ a machine will fail. The technician still has to work out _why_ and _what to do_. Agentic maintenance closes that gap: a language-model agent calls specialised tools for forecasting, root cause analysis and documentation, proposes an action and acts only after a technician approves it. The language model orchestrates. The numbers come from algorithms that can be checked.
 
 ## From prediction to action
