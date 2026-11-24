@@ -38,6 +38,8 @@ flowchart LR
 
 A language model should not estimate a remaining useful life or guess a root cause from its training data. It should call tools that compute these, read the results and explain them to the technician. Each tool below is a piece of my own work:
 
+{% raw %}
+
 ```mermaid
 flowchart LR
   T([Technician]) <--> AG{{Agent}}
@@ -46,6 +48,8 @@ flowchart LR
   AG --> K[Knowledge<br/>manuals, logs]
   AG --> X[Action<br/>work orders, robots]
 ```
+
+{% endraw %}
 
 - **Forecast.** [RULix](/projects/15_remaining_useful_life/) predicts the remaining useful life zero-shot, without run-to-failure data from the target machine.
 - **Root cause and decision.** [PriMa-Causa](/projects/1_prima_causa/) ranks maintenance actions by their causal effect on line performance. [Network-based root cause analysis](/projects/2_root_cause_networks/) shows which station and which signal drive the losses.
