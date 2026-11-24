@@ -5,7 +5,7 @@ description: Four flow and heat transfer cases in ANSYS Fluent and CFX, from mes
 period: 2019
 importance: 4
 img: assets/img/projects/cfd_case.gif
-category: simulation
+category: Simulation
 ---
 
 <div class="row justify-content-sm-center">

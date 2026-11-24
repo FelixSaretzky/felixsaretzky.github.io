@@ -6,6 +6,6 @@ period: 11/2026
 importance: 1
 img: assets/img/projects/agentic_maintenance.png
 img_fit: contain
-category: talks and notes
+category: Talks and notes
 redirect: /blog/2026/agentic-maintenance/
 ---

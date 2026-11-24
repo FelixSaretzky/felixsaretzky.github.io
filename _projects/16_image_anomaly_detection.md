@@ -5,7 +5,7 @@ description: Comparing unsupervised anomaly detection and supervised classificat
 period: 2023
 importance: 7
 img: assets/img/projects/anomaly_heatmap.png
-category: computer vision
+category: Computer vision
 ---
 
 <div class="row justify-content-sm-center">

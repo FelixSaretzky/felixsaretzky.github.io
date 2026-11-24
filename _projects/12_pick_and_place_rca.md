@@ -5,7 +5,7 @@ description: A master's thesis that built a simulated assembly line to test root
 period: 2024
 importance: 2
 img: assets/img/projects/pick_and_place.gif
-category: teaching and supervision
+category: Teaching and supervision
 ---
 
 <div class="row justify-content-sm-center">

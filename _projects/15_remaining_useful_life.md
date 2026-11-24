@@ -3,7 +3,7 @@ layout: page
 title: RULix
 description: A foundation model for zero-shot remaining useful life prediction, pre-trained only on synthetic run-to-failure data.
 period: 2026
-importance: 3
+importance: 2
 img: assets/img/projects/rulix_card.gif
 category: AI for maintenance
 ---

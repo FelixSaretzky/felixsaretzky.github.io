@@ -5,7 +5,7 @@ description: Papers and guides on finding a good research question and on writin
 period: 10/2026
 importance: 4
 img: assets/img/projects/reading_list.png
-category: talks and notes
+category: Talks and notes
 ---
 
 ## Research questions and research gaps

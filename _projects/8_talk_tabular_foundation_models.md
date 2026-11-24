@@ -5,6 +5,6 @@ description: Slides, notebook and reading list from my talk at AI Austria, Septe
 period: 09/2026
 importance: 2
 img: assets/img/projects/talk_tabular_fm.png
-category: talks and notes
+category: Talks and notes
 redirect: /blog/2026/tabular-foundation-models/
 ---

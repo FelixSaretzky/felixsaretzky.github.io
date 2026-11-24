@@ -5,7 +5,7 @@ description: Setting up the 2020 Euro NCAP barrier test in LS-DYNA and comparing
 period: 04/2019 – 08/2019
 importance: 2
 img: assets/img/projects/mpdb_crash.gif
-category: simulation
+category: Simulation
 ---
 
 <div class="row justify-content-sm-center">

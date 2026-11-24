@@ -6,6 +6,6 @@ period: 10/2026
 importance: 3
 img: assets/img/projects/reference_manager_agent.png
 img_fit: contain
-category: talks and notes
+category: Talks and notes
 redirect: /blog/2026/reference-manager-as-agent-tool/
 ---

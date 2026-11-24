@@ -5,7 +5,7 @@ permalink: /projects/
 description: Selected research, engineering and teaching work, plus talks and notes.
 nav: true
 nav_order: 1
-display_categories: [AI for maintenance, computer vision, teaching and supervision, talks and notes, simulation]
+display_categories: [AI for maintenance, Computer vision, Teaching and supervision, Talks and notes, Simulation]
 horizontal: false
 ---
 

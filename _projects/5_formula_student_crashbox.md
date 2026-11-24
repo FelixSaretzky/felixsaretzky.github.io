@@ -5,7 +5,7 @@ description: An aluminium impact attenuator for a Formula Student race car, simu
 period: 2019
 importance: 3
 img: assets/img/projects/crashbox.gif
-category: simulation
+category: Simulation
 ---
 
 <div class="row justify-content-sm-center">

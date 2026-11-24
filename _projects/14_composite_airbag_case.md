@@ -5,7 +5,7 @@ description: A woven glass-fibre/PA6 case that replaces a steel knee-airbag case
 period: 12/2019 – 03/2020
 importance: 1
 img: assets/img/projects/airbag_case.png
-category: simulation
+category: Simulation
 ---
 
 <div class="row justify-content-sm-center">

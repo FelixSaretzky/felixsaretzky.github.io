@@ -6,7 +6,7 @@ period: 09/2022 – 11/2022
 importance: 8
 img: assets/img/projects/instrument_measurement.png
 img_fit: contain
-category: computer vision
+category: Computer vision
 ---
 
 <div class="row justify-content-sm-center">

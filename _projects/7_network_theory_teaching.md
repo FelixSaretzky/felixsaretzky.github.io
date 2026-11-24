@@ -6,6 +6,6 @@ period: since 09/2026
 importance: 1
 img: assets/img/projects/network_theory.png
 img_fit: contain
-category: teaching and supervision
+category: Teaching and supervision
 redirect: /teaching/
 ---
