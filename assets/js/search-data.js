@@ -95,6 +95,11 @@ ninja.data = [{
           description: "A master&#39;s thesis with CRAB, who build mobile AI camera systems for recycling. Page under construction.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/20_supervision_crab_traceability/";
+            },},{id: "projects-blog-agentic-maintenance",
+          title: 'Blog: Agentic maintenance',
+          description: "From predicting failures to acting on them. What maintenance agents need before a technician can trust them.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/21_blog_agentic_maintenance/";
             },},{id: "projects-network-based-root-cause-analysis",
           title: 'Network-based root cause analysis',
           description: "Finding the causes of efficiency losses on a high-precision production line with network science.",
