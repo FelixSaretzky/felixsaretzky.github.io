@@ -143,9 +143,23 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
+  // Flat cards: no box, no shadow, the image and the text carry the card
   .card {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+
+    &.hoverable:hover {
+      box-shadow: none;
+    }
+
+    .card-body {
+      padding: 0.75rem 0.25rem 0;
+    }
+
     img {
       width: 100%;
+      border-radius: 0.5rem;
     }
 
     // Same image area on every card: photos fill it, diagrams (img_fit: contain) fit inside
@@ -166,13 +180,6 @@ ul.task-list input[type="checkbox"] {
 
     .card-title {
       font-size: 1.25rem;
-    }
-  }
-
-  // Same tile height in the three-column grid: room for the longest title and description
-  @media (min-width: 992px) {
-    .card-body {
-      min-height: 14.5rem;
     }
   }
 
@@ -269,24 +276,27 @@ ul.task-list input[type="checkbox"] {
 .social {
   text-align: center;
 
+  // Quiet icon row instead of large tiles
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.5rem;
 
     a {
+      margin: 0 0.4rem;
+
       img {
-        width: 3.2rem;
-        height: 3.2rem;
-        margin-bottom: 1rem;
+        width: 1.3rem;
+        height: 1.3rem;
+        margin-bottom: 0.5rem;
       }
 
       svg {
-        width: 3.5rem;
-        height: 4rem;
-        margin-bottom: 0.5rem;
+        width: 1.4rem;
+        height: 1.5rem;
+        margin-bottom: 0.25rem;
 
         image {
-          width: 3.5rem;
-          height: 3.5rem;
+          width: 1.4rem;
+          height: 1.4rem;
         }
       }
 

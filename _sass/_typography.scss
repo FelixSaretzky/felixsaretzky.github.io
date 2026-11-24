@@ -162,3 +162,31 @@ blockquote {
     }
   }
 }
+
+// Readable text: Roboto Regular instead of Light everywhere, and bold that stands out against it
+body {
+  font-weight: 400;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+// Blog posts read like an article: serif body text in a measure of about 70 characters.
+// Diagrams, tables and code keep the full column width.
+.post-content {
+  > p,
+  > ul,
+  > ol,
+  > blockquote {
+    max-width: 42rem;
+  }
+
+  p,
+  li {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+  }
+}
