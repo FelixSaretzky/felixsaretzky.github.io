@@ -11,8 +11,19 @@
   {% endif %}
 {% endcapture %}
 
+{% comment %} No footer text, impressum or date: hide the bar; the visit count shows it again once it loads {% endcomment %}
+{% assign footer_has_text = false %}
+{% if site.footer_text and site.footer_text != '' %}{% assign footer_has_text = true %}{% endif %}
+{% if site.impressum_path or site.last_updated %}{% assign footer_has_text = true %}{% endif %}
+
 {% if site.footer_fixed %}
-  <footer class="fixed-bottom" role="contentinfo">
+  <footer
+    class="fixed-bottom"
+    role="contentinfo"
+    {% unless footer_has_text %}
+      hidden
+    {% endunless %}
+  >
     <div class="container mt-0">
       {{ footer_contents }}
     </div>

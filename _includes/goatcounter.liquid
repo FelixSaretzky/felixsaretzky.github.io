@@ -14,6 +14,7 @@
         if (!element || !data.count) return;
         element.querySelector('span').textContent = data.count;
         element.hidden = false;
+        element.closest('footer')?.removeAttribute('hidden');
       })
       .catch(() => {});
   </script>
